@@ -32,7 +32,7 @@ numeros = [
 ]
 
 for numero in numeros:
-    nome_arquivo = f"{numero}-062023-GRF.pdf"
+    nome_arquivo = f"{numero}-062023-Guia.pdf"
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font("Arial", size=12)
